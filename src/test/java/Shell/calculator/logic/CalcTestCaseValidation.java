@@ -32,7 +32,15 @@ Assert.assertEquals(expectedResult, actualResult);
 		Assert.assertEquals(expectedResult,actualResult);
 	}
 	
-	
+	@Test //This is my new code
+
+	public void anotherMethod()
+	{
+		int expectedResult =5;
+		int actualResult=calc.subtraction(10,5);
+		Assert.assertEquals(expectedResult,actualResult);
+	}
+
 	@After
 	public void tearDown() {
 		System.out.println("Testcase is completed");
